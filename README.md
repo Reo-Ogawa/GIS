@@ -6,5 +6,6 @@ So I want to learning it
 
 Nice to meet you
 
+if u want to see picture, you will have to be prepared.
 ![Reo](https://github.com/Reo-Ogawa/GIS/issues/1#issue-2282174389)
 
