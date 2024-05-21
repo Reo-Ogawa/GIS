@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_4367a450b9058464740653ca54246ad2 {
+                #map_4896c76e1a619795a83b0881ddd6b9df {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,18 +39,18 @@
 <body>
     
     
-            <div class="folium-map" id="map_4367a450b9058464740653ca54246ad2" ></div>
+            <div class="folium-map" id="map_4896c76e1a619795a83b0881ddd6b9df" ></div>
         
 </body>
 <script>
     
     
-            var map_4367a450b9058464740653ca54246ad2 = L.map(
-                "map_4367a450b9058464740653ca54246ad2",
+            var map_4896c76e1a619795a83b0881ddd6b9df = L.map(
+                "map_4896c76e1a619795a83b0881ddd6b9df",
                 {
-                    center: [35.833, 139.955],
+                    center: [21.310073437522004, -157.85762749790413],
                     crs: L.CRS.EPSG3857,
-                    zoom: 15,
+                    zoom: 9,
                     zoomControl: true,
                     preferCanvas: false,
                 }
@@ -60,37 +60,223 @@
 
         
     
-            var tile_layer_f39c35af41745068ea4bceefa3151883 = L.tileLayer(
+            var tile_layer_9b75cae76a1139dbc223f8d8a693b6ed = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_f39c35af41745068ea4bceefa3151883.addTo(map_4367a450b9058464740653ca54246ad2);
+            tile_layer_9b75cae76a1139dbc223f8d8a693b6ed.addTo(map_4896c76e1a619795a83b0881ddd6b9df);
         
     
-            var marker_1c362e8914972396f530668e01d96645 = L.marker(
-                [35.833, 139.955],
+            var marker_4ac10fa57406e7f276893522feeffde2 = L.marker(
+                [21.291944632582236, -157.84351656342798],
                 {}
-            ).addTo(map_4367a450b9058464740653ca54246ad2);
+            ).addTo(map_4896c76e1a619795a83b0881ddd6b9df);
         
     
-        var popup_5de0cbb04a16cf7db870a10fcc88459f = L.popup({"maxWidth": "100%"});
+            var icon_9fc54b327bcbccb8d6603bbac9c319f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4ac10fa57406e7f276893522feeffde2.setIcon(icon_9fc54b327bcbccb8d6603bbac9c319f1);
+        
+    
+        var popup_5d9802da17fdd3421128f2ada49ba1d1 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_3ce90b43d136cbe4c18bba57056ea071 = $(`<div id="html_3ce90b43d136cbe4c18bba57056ea071" style="width: 100.0%; height: 100.0%;">Reitaku University</div>`)[0];
-                popup_5de0cbb04a16cf7db870a10fcc88459f.setContent(html_3ce90b43d136cbe4c18bba57056ea071);
+                var html_a07471f72094d9bce031c3c9981fe052 = $(`<div id="html_a07471f72094d9bce031c3c9981fe052" style="width: 100.0%; height: 100.0%;">アラモアナショッピングセンター</div>`)[0];
+                popup_5d9802da17fdd3421128f2ada49ba1d1.setContent(html_a07471f72094d9bce031c3c9981fe052);
             
         
 
-        marker_1c362e8914972396f530668e01d96645.bindPopup(popup_5de0cbb04a16cf7db870a10fcc88459f)
+        marker_4ac10fa57406e7f276893522feeffde2.bindPopup(popup_5d9802da17fdd3421128f2ada49ba1d1)
         ;
 
         
     
     
-            tile_layer_f39c35af41745068ea4bceefa3151883.addTo(map_4367a450b9058464740653ca54246ad2);
+            marker_4ac10fa57406e7f276893522feeffde2.bindTooltip(
+                `<div>
+                     ここに美味しいステーキハウスがある
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc737640ebd795a1b5985f6c320ac136 = L.marker(
+                [21.279277357311898, -157.82620039626642],
+                {}
+            ).addTo(map_4896c76e1a619795a83b0881ddd6b9df);
+        
+    
+            var icon_45bbc1e66bf772b487bc7c0f5a6f5c3d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cc737640ebd795a1b5985f6c320ac136.setIcon(icon_45bbc1e66bf772b487bc7c0f5a6f5c3d);
+        
+    
+        var popup_fd239d025207624eb7653da8ad5b495f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13ce275e2965677517a2490c32b8c9e2 = $(`<div id="html_13ce275e2965677517a2490c32b8c9e2" style="width: 100.0%; height: 100.0%;">ハイアットリージェンシー</div>`)[0];
+                popup_fd239d025207624eb7653da8ad5b495f.setContent(html_13ce275e2965677517a2490c32b8c9e2);
+            
+        
+
+        marker_cc737640ebd795a1b5985f6c320ac136.bindPopup(popup_fd239d025207624eb7653da8ad5b495f)
+        ;
+
+        
+    
+    
+            marker_cc737640ebd795a1b5985f6c320ac136.bindTooltip(
+                `<div>
+                     宿泊場所
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18e1097025a2d262646d927a094a4a62 = L.marker(
+                [21.277836612346714, -157.82777127499747],
+                {}
+            ).addTo(map_4896c76e1a619795a83b0881ddd6b9df);
+        
+    
+            var icon_c7191788f422fb9ed2cb1a502e757d80 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_18e1097025a2d262646d927a094a4a62.setIcon(icon_c7191788f422fb9ed2cb1a502e757d80);
+        
+    
+        var popup_65127c17b505386f3108e85a7275fdf7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_083b7e2cec2a705fb77e4396775ef243 = $(`<div id="html_083b7e2cec2a705fb77e4396775ef243" style="width: 100.0%; height: 100.0%;">チーズケーキファクトリー</div>`)[0];
+                popup_65127c17b505386f3108e85a7275fdf7.setContent(html_083b7e2cec2a705fb77e4396775ef243);
+            
+        
+
+        marker_18e1097025a2d262646d927a094a4a62.bindPopup(popup_65127c17b505386f3108e85a7275fdf7)
+        ;
+
+        
+    
+    
+            marker_18e1097025a2d262646d927a094a4a62.bindTooltip(
+                `<div>
+                     好きなチーズケーキ屋さん
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4cb54acfc90459d965240eead5531ada = L.marker(
+                [21.273563082510222, -157.82325751547785],
+                {}
+            ).addTo(map_4896c76e1a619795a83b0881ddd6b9df);
+        
+    
+            var icon_82dd41488a3f85e6165a438f782bb243 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4cb54acfc90459d965240eead5531ada.setIcon(icon_82dd41488a3f85e6165a438f782bb243);
+        
+    
+        var popup_91e2eaed6f47a7feb56fac728596e3bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a6a0a800b0acfee338e196bdc515a01 = $(`<div id="html_9a6a0a800b0acfee338e196bdc515a01" style="width: 100.0%; height: 100.0%;">ホノルルクッキーカンパニー</div>`)[0];
+                popup_91e2eaed6f47a7feb56fac728596e3bf.setContent(html_9a6a0a800b0acfee338e196bdc515a01);
+            
+        
+
+        marker_4cb54acfc90459d965240eead5531ada.bindPopup(popup_91e2eaed6f47a7feb56fac728596e3bf)
+        ;
+
+        
+    
+    
+            marker_4cb54acfc90459d965240eead5531ada.bindTooltip(
+                `<div>
+                     定番のお土産やさん
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_29c3f3da752599cba5a2b85ecdc18e21 = L.marker(
+                [21.591288112866035, -158.10278491090517],
+                {}
+            ).addTo(map_4896c76e1a619795a83b0881ddd6b9df);
+        
+    
+            var icon_d806e05e94881d37efc05d6773a90cb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_29c3f3da752599cba5a2b85ecdc18e21.setIcon(icon_d806e05e94881d37efc05d6773a90cb1);
+        
+    
+        var popup_5c981bede085bd17fb2ef5af4a64ac59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e03fbfbd8227c71273b51ee6048ead48 = $(`<div id="html_e03fbfbd8227c71273b51ee6048ead48" style="width: 100.0%; height: 100.0%;">マツモトシェイブアイス</div>`)[0];
+                popup_5c981bede085bd17fb2ef5af4a64ac59.setContent(html_e03fbfbd8227c71273b51ee6048ead48);
+            
+        
+
+        marker_29c3f3da752599cba5a2b85ecdc18e21.bindPopup(popup_5c981bede085bd17fb2ef5af4a64ac59)
+        ;
+
+        
+    
+    
+            marker_29c3f3da752599cba5a2b85ecdc18e21.bindTooltip(
+                `<div>
+                     かき氷を食べたいならここ
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5c066d13736aeded096cd0a9fdec14c0 = L.marker(
+                [21.556319705356096, -158.24086892112157],
+                {}
+            ).addTo(map_4896c76e1a619795a83b0881ddd6b9df);
+        
+    
+            var icon_76ff808a6f5d16005d466c2f7c9ababc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5c066d13736aeded096cd0a9fdec14c0.setIcon(icon_76ff808a6f5d16005d466c2f7c9ababc);
+        
+    
+        var popup_ceae3311b4252ad9724fe1bc9aaa1f5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e6598514d735e5457782532a7c32067 = $(`<div id="html_4e6598514d735e5457782532a7c32067" style="width: 100.0%; height: 100.0%;">ケアワウラビーチ</div>`)[0];
+                popup_ceae3311b4252ad9724fe1bc9aaa1f5b.setContent(html_4e6598514d735e5457782532a7c32067);
+            
+        
+
+        marker_5c066d13736aeded096cd0a9fdec14c0.bindPopup(popup_ceae3311b4252ad9724fe1bc9aaa1f5b)
+        ;
+
+        
+    
+    
+            marker_5c066d13736aeded096cd0a9fdec14c0.bindTooltip(
+                `<div>
+                     綺麗だった海
+                 </div>`,
+                {"sticky": true}
+            );
         
 </script>
 </html>
